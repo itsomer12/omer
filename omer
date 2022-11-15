@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+    Int var1,var2;
+    printf("Input the value of first variable:");
+    scanf("%d",&var1);
+    printf("Input the value of second variable:");
+    scanf("%d",&var2);
+    if(var1 !=var2)
+    {
+        printf("variable 1 and variable 2 are not equal\n");
+    }
+    else if (var1>var2)
+    {
+        printf("variable 1 is greater than variable 2\n");
+    }
+    else if (var2>var1)
+    {
+        printf("variable 2 is greater than variable 1\n");
+    }
+    else
+    {
+        printf("variable 1 and variable 2 are equal");
+    }
+    getch();
+    }
+    }
+    }
+    }
+}
